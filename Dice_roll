@@ -1,0 +1,8 @@
+import random
+
+long = input('How many sides should the dice have? (Write in numbers) ')
+length = long
+
+ai_choice = random.randint(0, int(length))
+
+print(f'Your number is: {ai_choice}')
